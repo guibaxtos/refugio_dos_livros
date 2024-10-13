@@ -1,0 +1,79 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar{
+    background-color: #4941e1;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #4941e1;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #ffeae6
+}
+
+.section-title{
+    font-family: "Playfair Display", serif;
+}
+
+#sobre-o-restaurante, #cardapio{
+    background-color: #e6fff7;
+}
+
+#eventos, #fale-conosco{
+    background-color: #e6f8ff;
+}
+
+.text-colored{
+    color: #4941e1;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button{
+    background-color: #4941e1;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: #4941e1;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+#comprar{
+    background-color: #4941e1;
+    color: #fff;
+}
+
+footer{
+    background-color: #4941e1;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+    
+}

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <title>Loja de Livros</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">Refúgio dos Livros</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#carousel" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a Livraria</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#lancamentos" class="nav-link">
+                            <i class="bi bi-star me-1"></i>
+                            Lançamentos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-bag me-1"></i>
+                            Produtos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link ">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-restaurante">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000" id="carousel">
+                        <img src="./images/slides/slide1.jpg" alt="Estante de Livros">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide2.jpg" alt="Estante de Livros">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide3.jpg" alt="Estante de Livros">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/livraria.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre a <span class="text-colored">livraria</span></h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae velit, beatae a enim dolorem doloribus culpa amet! Assumenda tenetur eos saepe maxime sequi explicabo soluta, recusandae a placeat, cupiditate labore?
+                        </p>
+                        <h3 class="section-title">Sobre o <span class="text-colored">espaço</span></h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius quidem placeat sed tempora possimus! Illum eos molestias incidunt veniam quo similique modi. Nemo fugit dignissimos voluptatum, eaque dolorum doloribus ullam.
+                        </p>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="lancamentos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Acabaram de <span class="text-colored">chegar</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/lançamentos/medo.webp" alt="Coleção Medo Clássicos - Edgar Allan Poe" class="d-block w-100 rounded mb-2">
+                        <h3 class="fw-bold text-colored fs-4">Coleção Medo Clássicos - Edgar Allan Poe</h3>
+                        <h5>R$ 84,90</h5>
+                        <button type="submit" id="comprar" class="btn fw-bold">Comprar</button>
+                        <i class="fs-2 ms-1 me-1 text-colored bi bi-cart2"></i>
+                        <i class="fs-3 text-colored bi bi-heart"></i>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis eius natus voluptates iure eum? Nihil, iusto eius facilis iste odio magnam provident ratione sapiente, nesciunt, ut voluptates at repudiandae laudantium.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/lançamentos/colecao.webp" alt="Coleção C. S. Lewis Clássicos - 30 Volumes" class="d-block w-100 rounded mb-2">
+                        <h3 class="fw-bold text-colored fs-4">Coleção C. S. Lewis Clássicos - 30 Volumes</h3>
+                        <h5>R$ 34,90</h5>
+                        <button type="submit" id="comprar" class="btn fw-bold">Comprar</button>
+                        <i class="fs-2 ms-1 me-1 text-colored bi bi-cart2"></i>
+                        <i class="fs-3 text-colored bi bi-heart"></i>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis eius natus voluptates iure eum? Nihil, iusto eius facilis iste odio magnam provident ratione sapiente, nesciunt, ut voluptates at repudiandae laudantium.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/lançamentos/e-assim-q-acaba.webp" alt="É Assim Que Começa - Collen Hoover" class="d-block w-100 rounded mb-2">
+                        <h3 class="fw-bold text-colored fs-4">É Assim Que Começa - Collen Hoover</h3>
+                        <h5>R$ 44,90</h5>
+                        <button type="submit" id="comprar" class="btn fw-bold">Comprar</button>
+                        <i class="fs-2 ms-1 me-1 text-colored bi bi-cart2"></i>
+                        <i class="fs-3 text-colored bi bi-heart"></i>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis eius natus voluptates iure eum? Nihil, iusto eius facilis iste odio magnam provident ratione sapiente, nesciunt, ut voluptates at repudiandae laudantium.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-5 pb-5" id="produtos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossos <span class="text-colored">produtos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-produtos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#terror" class="fw-bold text-start nav-link text-colored active">Terror</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#romance" class="fw-bold text-start nav-link text-colored">Romance</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#fantasia" class="fw-bold text-start nav-link text-colored">Fantasia</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="terror">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/produtos/terror/horror.jpg" alt="Remanso do Horror - O Casal Espectral">
+                                        <h3 class="fw-bold text-colored mt-2">Remanso do Horror - O Casal Espectral</h3>
+                                        <h5>R$ 24,90</h5>
+                                        <button type="submit" id="comprar" class="btn fw-bold">Comprar</button>
+                                        <i class="fs-2 ms-1 me-1 text-colored bi bi-cart2"></i>
+                                        <i class="fs-3 text-colored bi bi-heart"></i>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/produtos/terror/it.jpg" alt="It A Coisa - Stephen King">
+                                        <h3 class="fw-bold text-colored mt-2">It A Coisa - Stephen King</h3>
+                                        <h5>R$ 85,60</h5>
+                                        <button type="submit" id="comprar" class="btn fw-bold">Comprar</button>
+                                        <i class="fs-2 ms-1 me-1 text-colored bi bi-cart2"></i>
+                                        <i class="fs-3 text-colored bi bi-heart"></i>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/produtos/terror/telefone-preto.webp" alt="Coca-Cola">
+                                        <h3 class="fw-bold text-colored mt-2">O Telefone Preto e Outras Histórias - Joe Hill</h3>
+                                        <h5>R$ 92,50</h5>
+                                        <button type="submit" id="comprar" class="btn fw-bold">Comprar</button>
+                                        <i class="fs-2 ms-1 me-1 text-colored bi bi-cart2"></i>
+                                        <i class="fs-3 text-colored bi bi-heart"></i>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="romance">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/produtos/romance/blackout.jpg" alt="Blackout">
+                                        <h3 class="fw-bold text-colored mt-2">Blackout</h3>
+                                        <h5>R$ 45,90</h5>
+                                        <button type="submit" id="comprar" class="btn fw-bold">Comprar</button>
+                                        <i class="fs-2 ms-1 me-1 text-colored bi bi-cart2"></i>
+                                        <i class="fs-3 text-colored bi bi-heart"></i>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/produtos/romance/nao-me-esqueca.jpg" alt="Não Me Esqueça">
+                                        <h3 class="fw-bold text-colored mt-2">Não Me Esqueça - Juie Soto</h3>
+                                        <h5>R$ 30,00</h5>
+                                        <button type="submit" id="comprar" class="btn fw-bold">Comprar</button>
+                                        <i class="fs-2 ms-1 me-1 text-colored bi bi-cart2"></i>
+                                        <i class="fs-3 text-colored bi bi-heart"></i>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/produtos/romance/o-mar-me-levou-a-voce.webp" alt="O Mar Me Levou A Você">
+                                        <h3 class="fw-bold text-colored mt-2">O Mar Me Levou A Você</h3>
+                                        <h5>R$ 35,80</h5>
+                                        <button type="submit" id="comprar" class="btn fw-bold">Comprar</button>
+                                        <i class="fs-2 ms-1 me-1 text-colored bi bi-cart2"></i>
+                                        <i class="fs-3 text-colored bi bi-heart"></i>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="fantasia">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/produtos/fantasia/divina-comedia.jpg" alt="A Divina Comédia de Dante">
+                                        <h3 class="fw-bold text-colored mt-2">A Divina Comédia de Dante</h3>
+                                        <h5>R$ 65,70</h5>
+                                        <button type="submit" id="comprar" class="btn fw-bold">Comprar</button>
+                                        <i class="fs-2 ms-1 me-1 text-colored bi bi-cart2"></i>
+                                        <i class="fs-3 text-colored bi bi-heart"></i>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/produtos/fantasia/senhor-dos-aneis.jpg" alt="Senhor dos Anéis">
+                                        <h3 class="fw-bold text-colored mt-2">Senhor dos Anéis</h3>
+                                        <h5>R$ 159,99</h5>
+                                        <button type="submit" id="comprar" class="btn fw-bold">Comprar</button>
+                                        <i class="fs-2 ms-1 me-1 text-colored bi bi-cart2"></i>
+                                        <i class="fs-3 text-colored bi bi-heart"></i>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/produtos/fantasia/herois-do-olimpo.jpg" alt="heróis do Olimpo">
+                                        <h3 class="fw-bold text-colored mt-2">Heróis do Olimpo</h3>
+                                        <h5>R$ 70,90</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="tel" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                            <input type="tel" id="tel" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                            <textarea  class="form-control" id="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes Sociais</h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço</h3>
+                        <p>
+                            Rua Teste Endereço n° 145, Bairro Bootstrap - São Paulo - SP
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </div>
+    <footer class="navbar navbar-expand-lg p-4">
+        <p class="navbar-brand m-0">
+            2024 &copy; Todos os Direitos Reservados
+        </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#tel').mask('(00) 00000-0000', {
+                placeholder: '(**) *****-****'
+            })
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
